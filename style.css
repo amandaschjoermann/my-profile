@@ -60,25 +60,16 @@ h1:hover {
 
 #image1 {
   height: 250px;
-  position: absolute;
-  top: 400px;
-  left: 135px;
   cursor: pointer;
 }
 
 #image2 {
   height: 250px;
-  position: absolute;
-  top: 400px;
-  left: 290px;
   cursor: pointer;
 }
 
 #image3 {
   height: 250px;
-  position: absolute;
-  top: 400px;
-  left: 442px;
   cursor: pointer;
 }
 
@@ -95,10 +86,7 @@ em:hover {
 
 #image4 {
   height: 250px;
-  position: absolute;
-  top: 720px;
-  left: 165px;
-  margin-bottom: 50px;
+  margin: 50px;
 }
 
 .you {
@@ -327,6 +315,10 @@ a.friday {
   text-align: center;
 }
 
+a.friday:hover {
+  color: yellow;
+}
+
 .center {
   margin: 0 auto;
   text-align: center;
@@ -374,4 +366,10 @@ a.friday {
   80% {
     transform: translateY(25px);
   }
+}
+
+.centered {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
